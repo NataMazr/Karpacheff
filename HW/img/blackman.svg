@@ -1,0 +1,30 @@
+/* Group */
+
+position: absolute;
+left: 7.97%;
+right: 7.97%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 26.81%;
+right: 26.81%;
+top: 0%;
+bottom: 53.62%;
+
+background: #222B3A;
+
+
+/* Vector */
+
+position: absolute;
+left: 7.97%;
+right: 7.97%;
+top: 57.97%;
+bottom: 0%;
+
+background: #222B3A;
