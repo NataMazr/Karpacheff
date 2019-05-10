@@ -1,0 +1,390 @@
+@font-face {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 500;
+  src: url("D:/STUDY/PROCOdE/3.05/fonts/ProximaNova-Bold.ttf");
+}
+
+@font-face {
+  font-family: ProximaNovaReg;
+  font-style: normal;
+  font-weight: 500;
+  src: url("D:/STUDY/PROCOdE/3.05/fonts/ProximaNova-Regular.ttf");
+}
+
+@font-face {
+  font-family: ProximaNovasem;
+  font-style: normal;
+  font-weight: 500;
+  src: url("D:/STUDY/PROCOdE/3.05/fonts/ProximaNova-Semibold.ttf");
+}
+
+@font-face {
+  font-family: Intro;
+  font-style: normal;
+  font-weight: 500;
+  src: url("D:/STUDY/PROCOdE/3.05/fonts/Intro.ttf");
+}
+
+body {
+  padding: 0;
+  margin: 0 auto;
+}
+
+body .header {
+  width: 1600px;
+  min-height: 583px;
+  background-image: url("./img/childOO.png");
+  background-size: cover;
+}
+
+body .header .sqblack {
+  min-height: 82px;
+  width: 765px;
+  background-color: #222B3A;
+  color: white;
+  position: absolute;
+  top: 160px;
+  left: 0;
+}
+
+body .header .sqblack h1 {
+  color: white;
+  text-transform: uppercase;
+  vertical-align: center;
+  margin-left: 213px;
+  font-family: Intro;
+  font-size: 38px;
+  line-height: 53px;
+}
+
+body .header .header_top_line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 72px;
+  background-color: white;
+}
+
+body .header .header_top_line .header_logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .header .header_top_line .header_menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .header .header_top_line .header_menu a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 72px;
+  color: black;
+  font-family: Proxima Nova;
+  font-style: Bold;
+  font-size: 16px;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  margin-right: 34px;
+  cursor: pointer;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+body .header .header_top_line .header_menu a:hover {
+  color: #FC890D;
+  border-bottom: 3px solid #FC890D;
+  cursor: pointer;
+}
+
+body .header .header_top_line .header_menu .antrance {
+  margin-left: 70px;
+}
+
+body .header .header_top_line .header_menu .antrance::before {
+  content: url("./img/user.svg");
+  padding-right: 20px;
+}
+
+body .header .header_blok_text {
+  margin-left: 213px;
+}
+
+body .header .header_blok_text .head_info {
+  font-size: 16px;
+  line-height: 27px;
+  margin-top: 210px;
+  font-family: Proxima Nova;
+  line-height: 31px;
+}
+
+body .header .header_blok_text .rectangle {
+  margin-top: 45px;
+}
+
+body .header .header_blok_text .rectangle .outer_rectangle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 469px;
+  height: 15px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 2px;
+}
+
+body .header .header_blok_text .rectangle .outer_rectangle .inner_rectangle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 3px;
+  width: 259px;
+  height: 9px;
+  border-radius: 2px;
+  background-color: #1092CB;
+}
+
+body .header .header_blok_text .text_rectangle {
+  display: -ms-grid;
+  display: grid;
+  width: 349px;
+  height: 42px;
+      grid-template-areas: 'a b g e';
+  color: white;
+  font-family: ProximaNovasem;
+  font-size: 14px;
+  margin-top: 10px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+
+body .header .header_blok_text .text_rectangle p:nth-child(1) {
+  -ms-grid-row: 1;
+  grid-row: 1;
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: a;
+  font-size: 32px;
+  width: 35px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 0px;
+}
+
+body .header .header_blok_text .text_rectangle p:nth-child(2) {
+  -ms-grid-row: 1;
+  grid-row: 1;
+  -ms-grid-column: 2;
+  grid-column: 2;
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: b;
+  width: 186px;
+  margin-top: 0px;
+}
+
+body .header .header_blok_text .text_rectangle p:nth-child(3) {
+  -ms-grid-row: 1;
+  grid-row: 1;
+  -ms-grid-column: 3;
+  grid-column: 3;
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: g;
+  font-size: 32px;
+  margin-top: 0px;
+}
+
+body .header .header_blok_text .text_rectangle p:nth-child(4) {
+  -ms-grid-row: 1;
+  grid-row: 1;
+  -ms-grid-column: 4;
+  grid-column: 4;
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+  grid-area: e;
+  margin-top: 0px;
+}
+
+body .main {
+  margin-top: -18px;
+}
+
+body .main .breadcrumbs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1600px;
+  min-height: 47px;
+  background-color: #FAFAFA;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .main .breadcrumbs ul {
+  margin-left: 213px;
+  list-style-type: none;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+  font-family: Proxima Nova;
+  font-style: Bold;
+  font-size: 16px;
+}
+
+body .main .breadcrumbs ul .active {
+  color: #222B3A;
+  font-weight: bold;
+}
+
+body .main .breadcrumbs ul li {
+  display: inline-block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .main .breadcrumbs ul li:not(:first-child)::before {
+  content: url("./img/Line1.svg");
+  padding: 0 7px;
+  padding-bottom: 19px;
+}
+
+body .main .breadcrumbs ul li a {
+  color: #979FAD;
+  text-decoration: none;
+}
+
+body .main .theme_topic {
+  width: 1600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+}
+
+body .main .theme_topic .task {
+  position: relative;
+}
+
+body .main .theme_topic .task h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 99px;
+  margin-top: 0;
+  margin-left: 213px;
+  color: #222B3A;
+  font-family: Proxima Nova;
+  font-size: 32px;
+  line-height: 39px;
+  font-weight: bold;
+}
+
+body .main .theme_topic .task h2::before {
+  content: url("./img/lines.svg");
+  padding: 0 5px;
+  padding-bottom: 12px;
+}
+
+body .main .theme_topic .task h2::after {
+  content: url("./img/pol.svg");
+  padding: 0 12px;
+}
+
+body .main .theme_topic .task ol {
+  margin-left: 213px;
+  list-style-type: none;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+  font-family: Proxima Nova;
+  font-style: Bold;
+  font-size: 16px;
+  list-style: none;
+}
+
+body .main .theme_topic .task ol li div {
+  position: relative;
+  width: 928px;
+  height: auto;
+  display: inline-block;
+}
+
+body .main .theme_topic .task ol li div::after {
+  content: url("./img/Rectangle 9.24.svg");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  position: absolute;
+  right: -110px;
+  top: 30%;
+}
+
+body .main .theme_topic .task ol li .num {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  margin: 10px;
+  padding-top: 4px;
+  width: 25px;
+  height: 25px;
+  border-radius: 3px 0px;
+  color: #222B3A;
+  background: #F3F3F3;
+  font-family: Proxima Nova;
+  font-size: 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body .main .theme_topic .task ol li::after {
+  display: block;
+  content: url("./img/Lineli.svg");
+}
+
+body .main .theme_topic .task::after {
+  content: url("./img/bar.svg");
+  display: inline-block;
+  cursor: pointer;
+  position: absolute;
+  top: 40px;
+  right: -110px;
+}
+/*# sourceMappingURL=module.css.map */
